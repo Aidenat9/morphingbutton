@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <com.aiden.views.morphingbuttonlibrary.MorphingButton
+            android:id="@+id/mpb1"
+            android:textColor="@color/mb_white"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.aiden.views.morphingbuttonlibrary.MorphingButton
+            android:id="@+id/mpb2"
+            android:textColor="@color/mb_white"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_height="@dimen/mb_height_56">
+
+        <com.aiden.views.morphingbuttonlibrary.impl.IndeterminateProgressButton
+                android:id="@+id/ipb"
+                android:textColor="@color/mb_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_height="@dimen/mb_height_56">
+    <com.aiden.views.morphingbuttonlibrary.impl.LinearProgressButton
+            android:id="@+id/lpb"
+            android:textColor="@color/mb_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+</LinearLayout>
